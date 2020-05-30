@@ -18,7 +18,7 @@ const Nav = () => {
               data-toggle="collapse"
               data-target="#navbarResponsive"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon "></span>
             </button>
             {/* List tags */}
             <div

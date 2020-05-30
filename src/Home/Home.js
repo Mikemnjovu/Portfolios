@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import JambotronComp from "./jambotron";
+import Card from "../Shared/Card/Card";
 const Home = () => {
   return (
     <div>
@@ -12,29 +14,34 @@ const Home = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              className="img-fluid "
+              className="img-fluid image"
               src="https://images.pexels.com/photos/1181623/pexels-photo-1181623.jpeg?cs=srgb&dl=woman-wearing-beaded-white-necklace-1181623.jpg&fm=jpg"
+              alt="first pic"
             />
             <div className="carousel-caption">
               <h1 className="display-2">Portifolios</h1>
               <h2>A site to show case your work!</h2>
-              <button className="btn btn-primary btn-lg">Sign up Now</button>
+              <button className="btn btn-primary btn-xs">Sign up Now</button>
             </div>
           </div>
           <div className="carousel-item">
             <img
               className="img-fluid"
               src="https://images.pexels.com/photos/1820935/pexels-photo-1820935.jpeg?cs=srgb&dl=photo-of-woman-wearing-headscarf-1820935.jpg&fm=jpg"
+              alt="first pic"
             />
           </div>
           <div className="carousel-item">
             <img
               className="img-fluid"
               src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?cs=srgb&dl=women-s-white-and-black-button-up-collared-shirt-774909.jpg&fm=jpg"
+              alt="first pic"
             />
           </div>
         </div>
       </div>
+      <JambotronComp />
+      <Card />
     </div>
   );
 };
