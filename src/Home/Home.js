@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import JambotronComp from "./jambotron";
 import Card from "../Shared/Card/Card";
+import Api from "../Api";
 const Home = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const Home = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              className="img-fluid image"
+              className="img-fluid"
               src="https://images.pexels.com/photos/1181623/pexels-photo-1181623.jpeg?cs=srgb&dl=woman-wearing-beaded-white-necklace-1181623.jpg&fm=jpg"
               alt="first pic"
             />
