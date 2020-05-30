@@ -50,20 +50,43 @@ const Card = () => {
           </p>
         </div>
         <div className="card-footer text-center">
-          <button type="button" className="btn btn-primary">
+          <button type="button" className="btn btn-primary btn-lg">
             View Portfolio
           </button>
         </div>
       </div>
-      <div className="card">
+      {/* Card seperator */}
+      <div className="card bg-light ">
         <div className="card-header">
-          <p>Name</p>
+          <p>
+            <b>{username}</b>
+          </p>
         </div>
-        <div className="card-body">
-          <p>Name</p>
+        <div className="card-body mx-auto">
+          <img
+            className="card-img-top img-thumbnail image mx-auto rounded-circle"
+            src="https://source.unsplash.com/random"
+          />
+          <p>
+            <b>Name:</b> {name}
+          </p>
+          <p>
+            <b>Email:</b> {email}
+          </p>
+          <p>
+            <b>Phone:</b> {phone}
+          </p>
+          <p>
+            <b>Website:</b> {website}
+          </p>
+          <p>
+            <b>Phone:</b> {phone}
+          </p>
         </div>
-        <div className="card-footer">
-          <p>Name</p>
+        <div className="card-footer text-center">
+          <button type="button" className="btn btn-primary btn-lg">
+            View Portfolio
+          </button>
         </div>
       </div>
     </div>
