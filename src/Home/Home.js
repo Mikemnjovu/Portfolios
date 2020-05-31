@@ -15,8 +15,8 @@ const Home = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              className="img-fluid"
-              src="https://images.pexels.com/photos/1181623/pexels-photo-1181623.jpeg?cs=srgb&dl=woman-wearing-beaded-white-necklace-1181623.jpg&fm=jpg"
+              className="img-fluid image-test"
+              src="https://images.pexels.com/photos/3817723/pexels-photo-3817723.jpeg?cs=srgb&dl=man-in-black-crew-neck-shirt-wearing-black-sunglasses-and-3817723.jpg&fm=jpg"
               alt="first pic"
             />
             <div className="carousel-caption">
