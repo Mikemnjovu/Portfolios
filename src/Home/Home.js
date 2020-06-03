@@ -19,18 +19,21 @@ const Home = () => {
               src="https://images.pexels.com/photos/3817723/pexels-photo-3817723.jpeg?cs=srgb&dl=man-in-black-crew-neck-shirt-wearing-black-sunglasses-and-3817723.jpg&fm=jpg"
               alt="first pic"
             />
-            <div className="carousel-caption">
-              <h1 className="display-2">Portifolios</h1>
+            <div className="carousel-caption text-center">
+              <p className="mb-0 display-4">Portifolios</p>
               <h2>A site to show case your work!</h2>
-              <button className="btn btn-primary btn-xs">Sign up Now</button>
+              <button className="btn btn-primary btn-lg">Sign up Now</button>
             </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item align-items-center justify-content-center">
             <img
               className="img-fluid image-test"
               src="https://images.pexels.com/photos/1820935/pexels-photo-1820935.jpeg?cs=srgb&dl=photo-of-woman-wearing-headscarf-1820935.jpg&fm=jpg"
               alt="first pic"
             />
+            <div className="carousel-caption">
+              <h2 className="display-1">Who you are</h2>
+            </div>
           </div>
           <div className="carousel-item">
             <img
@@ -38,6 +41,9 @@ const Home = () => {
               src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?cs=srgb&dl=women-s-white-and-black-button-up-collared-shirt-774909.jpg&fm=jpg"
               alt="first pic"
             />
+            <div className="carousel-caption">
+              <h1 className="display-1">what you can be</h1>
+            </div>
           </div>
         </div>
       </div>
