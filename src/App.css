@@ -6,11 +6,12 @@
   margin: 0 1.5em;
 }
 .image {
-  height: 20rem;
-  width: 20rem;
+  width: 20em;
+  height: 18em;
+  object-fit: cover;
 }
 .image-test {
-  /* width: 100%;
-  height: 20%; */
-  object-fit: scale-down;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }

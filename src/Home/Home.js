@@ -27,14 +27,14 @@ const Home = () => {
           </div>
           <div className="carousel-item">
             <img
-              className="img-fluid"
+              className="img-fluid image-test"
               src="https://images.pexels.com/photos/1820935/pexels-photo-1820935.jpeg?cs=srgb&dl=photo-of-woman-wearing-headscarf-1820935.jpg&fm=jpg"
               alt="first pic"
             />
           </div>
           <div className="carousel-item">
             <img
-              className="img-fluid"
+              className="img-fluid image-test"
               src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?cs=srgb&dl=women-s-white-and-black-button-up-collared-shirt-774909.jpg&fm=jpg"
               alt="first pic"
             />
