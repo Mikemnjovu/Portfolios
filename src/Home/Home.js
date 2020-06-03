@@ -21,7 +21,7 @@ const Home = () => {
             />
             <div className="carousel-caption text-center">
               <p className="mb-0 display-4">Portifolios</p>
-              <h2>A site to show case your work!</h2>
+              <h2>A site to show case your work..</h2>
               <button className="btn btn-primary btn-lg">Sign up Now</button>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Home = () => {
               alt="first pic"
             />
             <div className="carousel-caption">
-              <h2 className="display-1">Who you are</h2>
+              <h2 className="display-1">Who you are..</h2>
             </div>
           </div>
           <div className="carousel-item">
@@ -42,7 +42,7 @@ const Home = () => {
               alt="first pic"
             />
             <div className="carousel-caption">
-              <h1 className="display-1">what you can be</h1>
+              <h1 className="display-1">what you can be..</h1>
             </div>
           </div>
         </div>

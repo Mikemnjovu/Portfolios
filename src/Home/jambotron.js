@@ -6,8 +6,8 @@ const jambotron = (props) => {
       <div className="container align-item-center text-center">
         <h1>Show case what You are</h1>
         <p>This is for you and you know it!!</p>
-        <a href="#" className="btn btn-outline-secondary" type="button">
-          Take Tutorial
+        <a href="#">
+          <button className="btn btn-outline-secondary">Take a Tutorial</button>
         </a>
       </div>
     </div>

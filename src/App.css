@@ -4,6 +4,7 @@
 .margin-center {
   /* text-justify: center; */
   margin: 0 1.5em;
+  margin-bottom: 1.5em;
 }
 .image {
   width: 17em;
