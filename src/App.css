@@ -6,6 +6,12 @@
   margin: 0 1.5em;
   margin-bottom: 1.5em;
 }
+.margin-top {
+  margin-top: 1.5em;
+}
+.margin-bottom {
+  margin: 0em 0em 1.5em 0em;
+}
 .image {
   width: 17em;
   height: 17em;
