@@ -34,7 +34,7 @@ const Card = () => {
                 <div className="card-body text-center ">
                   <div className=" text-dark ">
                     <p className="card-text">
-                      <b>Name:</b> {item.name.first}
+                      <b>Name:</b> {`${item.name.first} ${item.name.last}`}
                     </p>
                     <p>
                       <b>Email:</b> {item.email}
@@ -46,7 +46,7 @@ const Card = () => {
                       <b>Website:</b> {item.email}
                     </p>
                     <p>
-                      <b>Phone:</b> {item.phone}
+                      <b>Job title:</b> {"Software Enginer"}
                     </p>
                   </div>
                 </div>
