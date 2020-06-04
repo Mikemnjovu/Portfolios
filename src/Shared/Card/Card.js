@@ -21,7 +21,7 @@ const Card = () => {
         ? person.map((item) => (
             <div className=" ">
               <div
-                className="card text-dark bg-light mx-auto shadow"
+                className="card  text-dark bg-light margin-center shadow"
                 key={item.id}
               >
                 <div className="card-header">
