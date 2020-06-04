@@ -42,7 +42,7 @@ const Home = () => {
               alt="first pic"
             />
             <div className="carousel-caption">
-              <h1 className="display-1">what you can be..</h1>
+              <h1 className="display-1">and what you can be..</h1>
             </div>
           </div>
         </div>
