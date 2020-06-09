@@ -1,5 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Link,
+  Switch,
+} from "react-router-dom";
+
+import Signup from "../../Singup/Signup.js";
 
 const Nav = () => {
   return (
@@ -25,8 +33,8 @@ const Nav = () => {
               className="collapse navbar-collapse lm-auto "
               id="navbarResponsive"
             >
-              <ul className="navbar-nav d-flex ">
-                <Router>
+              <Router>
+                <ul className="navbar-nav d-flex ">
                   <li className="nav-item mr-auto">
                     <div className="input-group mb-3">
                       <input
@@ -58,25 +66,32 @@ const Nav = () => {
                   </li>
 
                   <li className="nav-item ">
-                    <button
-                      className="nav-link btn btn-primary btn-md<"
-                      type="button"
-                      to="/"
-                    >
-                      Sign up
-                    </button>
+                    <Link to="/signup">
+                      <button
+                        className="nav-link btn btn-primary btn-md<"
+                        type="button"
+                      >
+                        Sign up
+                      </button>
+                    </Link>
                   </li>
                   <li className="nav-item margin-left-sm">
-                    <button
-                      className="nav-link btn btn-outline-light btn btn-outline-info btn-md"
-                      type="button"
-                      to="/"
-                    >
-                      Sign in
-                    </button>
+                    <Link to="/signin">
+                      <button
+                        className="nav-link btn btn-outline-light btn btn-outline-info btn-md"
+                        type="button"
+                      >
+                        Sign in
+                      </button>
+                    </Link>
                   </li>
-                </Router>
-              </ul>
+                </ul>
+                <Switch>
+                  <Route path="/signup">
+                    <Signup />
+                  </Route>
+                </Switch>
+              </Router>
             </div>
           </div>
         </div>
